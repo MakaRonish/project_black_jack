@@ -12,7 +12,7 @@ package ca.sheridancollege.project;
 public class Player {
     private final String name;
     private final Hand hand;
-    private int score; // New field to track the player's score
+    private int score; 
 
     public Player(String name) {
         this.name = name;

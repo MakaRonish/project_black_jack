@@ -9,6 +9,7 @@ package ca.sheridancollege.project;
  * @author ronis
  */
 public class Main {
+    //this will run the game 
     public static void main(String[] args) {
         Game game = new Game();
         game.start();

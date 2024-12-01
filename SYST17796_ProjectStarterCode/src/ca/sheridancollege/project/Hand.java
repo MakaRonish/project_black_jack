@@ -37,7 +37,7 @@ public class Hand {
             }
         }
 
-        // Adjust for aces if total exceeds 21
+
         while (total > 21 && aceCount > 0) {
             total -= 10;
             aceCount--;
